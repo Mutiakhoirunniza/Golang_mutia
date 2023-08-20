@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Mutia")
-	fmt.Println(" Diah ")
-	fmt.Println("alterra")
-	fmt.Println("Fakultas teknik")
+	for i := 1; i < 15; i++ {
+		fmt.Print(i)
+	}
 }
+
